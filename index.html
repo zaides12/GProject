@@ -19,7 +19,7 @@
     </h1>
   </div>
  
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg p-3 mb-5">
      <div class="container">
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"></span>
@@ -27,10 +27,10 @@
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
              <ul class="navbar-nav me-auto">
                  <li class="nav-item active hover px-4">
-                     <a class="nav-link hover px-4" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"> HOME </a>
+                     <a class="nav-link hover px-4" href="index.html" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"> HOME </a>
                  </li>
                  <li class="nav-item hover px-4">
-                     <a class="nav-link hover px-4" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"> POLICE STATIONS </a>
+                     <a class="nav-link hover px-4" href="pnp.html" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"> POLICE STATIONS </a>
                  </li>
                  <li class="nav-item hover px-4">
                      <a class="nav-link hover px-4" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show"> FIRE STATIONS </a>
@@ -49,8 +49,51 @@
          </div>
      </div>
  </nav>
+
+<br>
+<br>
  
- 
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <img src="ps1.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="transbox">
+       <p> POLICE STATION ONE <br> PARIAN, CEBU CITY</p>
+      </div>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="5000">
+      <img src="ps3.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="transbox">
+          <p> POLICE STATION THREE <br> WATERFRONT PIER AREA</p>
+         </div>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="5000">
+      <img src="ps4.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="transbox">
+          <p> POLICE STATION FOUR <br> MABOLO, CEBU CITY</p>
+         </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev btn btn-dark" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next btn btn-dark" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
  
  
 <!-- JavaScript Bundle with Popper -->
