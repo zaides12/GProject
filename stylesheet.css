@@ -2,22 +2,22 @@
 {
 background-color:#1E4558;
 }
-
-
-
+ 
+ 
+ 
 #title
 {
-	background-color: #1E4558;
-	border: 25px solid #D52027;
+    background-color: #1E4558;
+    border: 25px solid #D52027;
 }
-
+ 
 #titletext
 {
-	padding: 10px;
-	text-align: center;
-	color: white;
+    padding: 10px;
+    text-align: center;
+    color: white;
 }
-
+ 
 .hover:hover
 { background-color: black;
 }
