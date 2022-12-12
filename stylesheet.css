@@ -68,5 +68,22 @@ background-color:#1E4558;
 	padding-left: 100px;
 	width: 400px;
 	height: 200px;
+  float: left;
   }
+
+  div.transboxpnp {
+    margin: 30px;
+    background-color: #6b6262;
+    opacity: 0.6;
+    }
+
+    .mapouter
+    {
+      float: right;
+      margin-right: 100px;
+    }
+
+
+    
+
 
