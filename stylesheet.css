@@ -1,3 +1,5 @@
+/*INDEX HTML*/
+
 #bg
 {
 background-color:#1E4558;
@@ -40,17 +42,7 @@ background-color:#1E4558;
 	margin-right: 10%;
   }
 
-  h5
-  {
-	color: black;
-  }
-  
-  table,td
-  {
-	width: 100%;
-	color: black;
-	background-color: white;
-  }
+
   div.transbox {
 	margin: 30px;
 	background-color: #ffffff;
@@ -63,24 +55,42 @@ background-color:#1E4558;
 	color: #000000;
   }
 
-  .pnp
-  {
-	padding-left: 100px;
-	width: 400px;
-	height: 200px;
-  float: left;
-  }
+ /* PNP HTML */
 
-  div.transboxpnp {
-    margin: 30px;
-    background-color: #6b6262;
-    opacity: 0.6;
-    }
+ .bodyofpnp
+ {
+  margin-left: 10%;
+  margin-right: 10%;
+ }
 
     .mapouter
     {
       float: right;
-      margin-right: 100px;
+    }
+    .textpnp1
+    {
+    color: black;
+    font-size: 30px;
+    }
+
+    .pnp 
+    {
+    float: center;
+    width:  700px;
+    height: 400px;
+    
+    }
+    
+    .data,th
+    {
+    width: 100%;
+    float: center;
+    object-fit: cover;
+    }
+
+    .tele
+    {
+      width: 50px;
     }
 
 
