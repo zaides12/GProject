@@ -4,6 +4,26 @@
 {
 background-color:#1E4558;
 }
+
+.borders
+{
+
+  margin: 10%;
+  margin-top: 0%;
+}
+
+.quotes
+{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #ffffff;
+  word-spacing: 1px;
+}
+
+.box 
+{
+  background-color: #D52027;
+  padding: 5px;
+}
  
  
  
@@ -26,24 +46,13 @@ background-color:#1E4558;
 
 
 .carousel .carousel-item {
-	height: 500px;
-  }
+	height: auto;
+  width: 100%;
+}
   
-  .carousel-item img {
-	  position: absolute;
-	  object-fit: cover;
-	  top: 0;
-	  left: 0;
-	  min-height: 500px;
-  }
-  .carousel, .carousel-indicators
-  {
-	margin-left: 10%;
-	margin-right: 10%;
-  }
 
-
-  div.transbox {
+/*
+  .div.transbox {
 	margin: 30px;
 	background-color: #ffffff;
 	opacity: 0.6;
@@ -54,44 +63,119 @@ background-color:#1E4558;
 	font-weight: bold;
 	color: #000000;
   }
+  */
+
+.px-2 {
+    padding-right:($spacer*.5)!important;
+  }
+
+  .bot
+{
+  background-color: #232323;
+  width: 100%;
+  height: 50px;
+  padding: 2px;
+
+}
+
+
+.bi.bi-box-heart
+{
+padding: 3px;
+}
+
+  
 
  /* PNP HTML */
 
  .bodyofpnp
  {
-  margin-left: 10%;
-  margin-right: 10%;
+  contain: content;
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(35, 35, 35, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+color: #232323;
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+background: rgba(8, 8, 8, 0.3);
+flex-basis: 100px;
+padding: 10%;
  }
 
-    .mapouter
-    {
-      float: right;
-    }
     .textpnp1
     {
-    color: black;
+    color: whitesmoke;
     font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
     .pnp 
     {
-    float: center;
-    width:  700px;
-    height: 400px;
-    
+      width: 100%;
+      height: auto; 
     }
     
-    .data,th
-    {
-    width: 100%;
-    float: center;
-    object-fit: cover;
-    }
 
-    .tele
-    {
-      width: 50px;
-    }
+
+    .map-responsive{
+
+      overflow:hidden;
+  
+      padding-bottom:40%;
+  
+      position:relative;
+  
+      height:0;
+  
+  }
+  
+  .map-responsive iframe{
+  
+      left:0;
+  
+      top:0;
+  
+      height:100%;
+  
+      width:100%;
+  
+      position:absolute;
+  
+  }
+  .table
+  {
+    overflow-x:auto;
+  }
+
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+  /*ABOUT*/
+
+  .abouttitle, .abouttext
+  {
+color: aliceblue;
+font-family: Georgia, 'Times New Roman', Times, serif;
+letter-spacing: 3px;
+  }
+
+  .gcash
+  {
+    width: 60%;
+
+    
+  }
+  
+      
 
 
     
