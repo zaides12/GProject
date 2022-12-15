@@ -150,6 +150,17 @@ padding: 10%;
     overflow-x:auto;
   }
 
+  .table2,th,td
+  {
+    overflow-x:auto;
+
+  }
+
+  .sizepics
+  {
+    width: 20%;
+  }
+
   
   .material-symbols-outlined {
     font-variation-settings:
@@ -166,16 +177,44 @@ padding: 10%;
 color: aliceblue;
 font-family: Georgia, 'Times New Roman', Times, serif;
 letter-spacing: 3px;
+text-align: center;
   }
 
   .gcash
   {
-    width: 60%;
+    width: 100%;
+    height: auto;
+    float: center;
 
     
   }
+
+
+  .righttext
+  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: center;
+  }
   
-      
+
+  /*CONTACT*/
+
+  .pics
+  {
+    border-radius: 50%;
+    height: auto;
+    width: 200px;
+  }
+    
+  .info
+  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    padding: 30px;
+
+  }
+
 
 
     
